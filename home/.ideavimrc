@@ -13,7 +13,8 @@ let mapleader="\<space>"
 
 " general
 nmap <leader>nh :nohl<CR>
-nmap x _x " don't put to clipboard char when x
+" don't put to clipboard char when x
+nmap x _x 
 nmap <C-d> <C-d>zz
 nmap <C-u> <C-u>zz
 nmap n nzzzv
