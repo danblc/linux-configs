@@ -1,0 +1,23 @@
+:set relativenumber
+
+" vim settings
+set scrolloff=5
+set history=1000
+
+" status bar
+set showmode
+
+" leader
+map <space> <nop>
+let mapleader="\<space>"
+
+" general
+nmap <leader>nh :nohl<CR>
+nmap x _x " don't put to clipboard char when x
+nmap <C-d> <C-d>zz
+nmap <C-u> <C-u>zz
+nmap n nzzzv
+nmap N Nzzzv
+
+" greatest remap ever
+nmap <leader>p \"_dP
