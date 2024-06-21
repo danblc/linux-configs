@@ -35,4 +35,4 @@ fi
 
 . "$HOME/.config/aliases"
 
-source <(kubectl completion zsh)
+# source <(kubectl completion zsh)
