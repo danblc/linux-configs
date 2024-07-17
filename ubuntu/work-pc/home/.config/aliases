@@ -1,0 +1,15 @@
+alias vi=nvim
+
+alias d=docker
+alias di="d images"
+alias dc="d container ls"
+
+alias k=kubectl
+alias kgp="k get pods"
+alias kgd="k get deployments"
+alias kgs="k get services"
+
+
+alias bat=batcat
+alias mc='EDITOR=nvim; ~/softs/mc-4.8.28/install/bin/mc -u -X'
+

@@ -1,0 +1,7 @@
+[push]
+	default = current
+[user]
+	email = dan.belceanu@gmail.com
+	name = danblc
+[core]
+	autocrlf = input

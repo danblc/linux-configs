@@ -1,0 +1,16 @@
+alias vi=nvim
+
+alias d=docker
+alias di="d images"
+alias dc="d container ls"
+
+alias k=kubectl
+alias kgp="k get pods"
+alias kgd="k get deployments"
+alias kgs="k get services"
+
+
+alias bat=batcat
+alias mc='PAGER=nvim;EDITOR=nvim; /usr/lib/mc/mc-wrapper.sh'
+#alias mc='EDITOR=nvim; /usr/bin/mc -u -X'
+
