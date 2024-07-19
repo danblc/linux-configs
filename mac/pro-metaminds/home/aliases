@@ -1,0 +1,15 @@
+alias vi=nvim
+
+alias d=docker
+alias di="d images"
+alias dc="d container ls"
+
+alias k=kubectl
+alias kgp="k get pods"
+alias kgd="k get deployments"
+alias kgs="k get services"
+
+
+alias bat=batcat
+alias mc='EDITOR=${HOMEBREW}/nvim && source /opt/homebrew/Cellar/midnight-commander/4.8.31/libexec/mc/mc-wrapper.sh -u -X'
+
