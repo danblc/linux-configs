@@ -117,12 +117,27 @@ unsetopt autocd
 unsetopt autopushd
 setopt NO_CASE_GLOB
 setopt INC_APPEND_HISTORY
+
+# history setup
+HISTFILE=$HOME/.zhistory
+SAVEHIST=1000
+HISTSIZE=999
+setopt share_history
 # expire duplicates first
-setopt HIST_EXPIRE_DUPS_FIRST 
+setopt hist_expire_dups_first
 # do not store duplications
-setopt HIST_IGNORE_DUPS
+setopt hist_ignore_dups
+setopt hist_verify
 #ignore duplicates when searching
 setopt HIST_FIND_NO_DUPS
 # removes blank lines from history
 setopt HIST_REDUCE_BLANKS
 
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# ---- Eza (better ls) -----
+alias ls="eza --icons=always"
+# ---- Zoxide (better cd) ----
+eval "$(zoxide init zsh)"
+alias cd="z"

@@ -11,5 +11,5 @@ alias kgs="k get services"
 
 
 alias bat=batcat
-alias mc='EDITOR=${HOMEBREW}/nvim && source /opt/homebrew/Cellar/midnight-commander/4.8.31/libexec/mc/mc-wrapper.sh -u -X'
+alias mc='EDITOR=${HOMEBREW}/nvim && source /opt/homebrew/Cellar/midnight-commander/4.8.31/libexec/mc/mc-wrapper.sh -u -d -X'
 
